@@ -20,7 +20,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(0, 210, 70);
+    color: rgb(0, 0, 0);
     flex: 1;
     margin: 0;
 }
@@ -33,7 +33,7 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #35f300;
+    color: #0d0b0d;
 }
 
 /* main container area beneath menu */
@@ -60,4 +60,29 @@ main {
 }
 h2, h3 {
     margin: 0px;
+}
+ /* portfolio styles */
+ .content h1 {
+    color: rgb(251, 8, 255);
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #120aff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #ff0ce3;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #000000;
 }
