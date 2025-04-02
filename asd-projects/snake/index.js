@@ -203,6 +203,9 @@ function hasCollidedWithSnake() {
   head and each part of the snake's body also knows its own row and column.
   
   */
+ 
+
+ }
 
   return false;
 }
