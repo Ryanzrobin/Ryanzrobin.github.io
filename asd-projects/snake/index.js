@@ -253,15 +253,9 @@ function endGame() {
 function makeApple() {
   // make the apple jQuery Object and append it to the board 4-b1
   apple.element = $("<div>").addClass("apple").appendTo(board);
-
-  // get a random available row/column on the board
   var randomPosition = getRandomAvailablePosition();
-
-  // initialize the row/column properties on the Apple Object
   apple.row = randomPosition.row;
   apple.column = randomPosition.column;
-
-  // position the apple on the screen
   repositionSquare(apple);
 }
  
